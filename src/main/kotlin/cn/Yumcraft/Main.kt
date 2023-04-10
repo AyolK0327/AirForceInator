@@ -14,8 +14,6 @@ import taboolib.platform.BukkitPlugin
 
 object ExamplePlugin : Plugin() {
 
-// 注册 command 命令并添加别名与描述
-
     val pointsAPI: PlayerPointsAPI by lazy { PlayerPoints.getInstance().api }
 
     val plugin by lazy { BukkitPlugin.getInstance() }
